@@ -8,20 +8,43 @@
 	<header id="main-header">
 		<h1>Hi Adriel Here!</h1>	
 	</header><!-- end main-header -->
-	<p>
-		<img src="img/foto.jpg" alt="fotoku" height="156" width="110"><br>
-		Lahir di Pemalang, 22 tahun. Seorang Fresh Grad dari Politeknik Negeri Bandung, dengan prodi D4 Teknik Telekomunikasi.<br><br>
-		Tanggal lahir : 15 Desember 1998<br>
-		Hobi : Olahraga, makan, tidur.<br>
-		Cita-cita : Menjadi orang sukses.<br> 
-		<h3>Organisasi:</h3>
-		<ul>
-			<li>Himatel</li>
-			<li>FF Polban</li>
-			<li>Keroncong</li>
-		</ul>
-		<hr>
-		<table border="1" cellspacing="0" cellpadding="3">
+
+	<article class="blog-post">
+		<section class="gambar-profil">
+			<p>
+				Dibuat pada <time datetime="2021-10-29 21:34">29 Oktober 2021</time>.
+			</p>
+			<img src="img/foto.jpg" alt="fotoku" height="156" width="110"><br>
+		</section><!-- end gambar-profil -->
+
+		<section class="profil-singkat">
+			<p>
+				Lahir di Pemalang, 22 tahun. Seorang Fresh Grad dari Politeknik Negeri Bandung, dengan prodi D4 Teknik Telekomunikasi.<br>
+			</p>
+		</section><!-- end profil-singkat -->
+
+		<section class="biodata-singkat">
+			<p>
+				Tanggal lahir : 15 Desember 1998<br>
+				Hobi : Olahraga, makan, tidur.<br>
+				Cita-cita : Menjadi orang sukses.<br>
+			</p>
+		</section><!-- end biodata-singkat -->
+
+		<section class="organisasi">
+			<p>
+				<h3>Organisasi:</h3>
+				<ul>
+					<li>Himatel</li>
+					<li>FF Polban</li>
+					<li>Keroncong</li>
+				</ul>
+			</p>
+		</section><!-- end organnisasi -->
+
+		<section class="tabel">
+			<hr>
+			<table border="1" cellspacing="0" cellpadding="3">
 			<tr>
 				<th rowspan="2">No.</th>
 				<th rowspan="2">Nama</th>
@@ -53,9 +76,15 @@
 				<td>1950</td>
 				<td>Purworejo</td>
 			</tr>	
-		</table>
-		<br>
-		<form action="/page.php">
+			</table>
+			<br>
+		</section><!-- end tabel -->
+
+	</article><!-- end blog-post -->
+	
+	<footer id="footer">
+		<div class="contact-me">
+			<form action="/page.php">
 			<fieldset>
 				<legend>Contact Me</legend>
 				<label for="nama">Nama :</label>
@@ -70,17 +99,26 @@
 				<br>
 				<input type="submit" name="submit" value="Kirim">
 				<br><br>
-				Or connect with me:
-				<br>
-				<a href="https://www.linkedin.com/in/naufaladrielfauzi/" target="_blank">
-					<img src="img/logolink.png" height="30" width="30">
-				</a>
-				<a href="https://github.com/nAdrielf" target="_blank">
-					<img src="img/logogithub.png" height="30" width="30">
-				</a>
 			</fieldset>
 		</form>
-		<a href="https://www.google.com/" target="-blank">Back to google</a>
-	</p>
+		</div><!-- end contact-me -->
+
+		<div class="connect-me">
+			Or connect with me:
+				<br>
+				<a href="https://www.linkedin.com/in/naufaladrielfauzi/" target="_blank">
+				<img src="img/logolink.png" height="30" width="30">
+				</a>
+				<a href="https://github.com/nAdrielf" target="_blank">
+				<img src="img/logogithub.png" height="30" width="30">
+				</a>
+		</div><!-- end connect-me -->
+		
+		<div class="back-google">
+			<a href="https://www.google.com/" target="-blank">Back to google</a>
+		</div><!-- end back-google -->
+		
+	</footer><!-- end footer -->
+
 </body>
 </html>
